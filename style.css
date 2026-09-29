@@ -161,7 +161,6 @@ grid-template-columns: 1.02fr 0.98fr;
 align-items: center;
 gap: 85px;
 }
-
 .hero-label {
 display: inline-flex;
 align-items: center;
@@ -172,7 +171,6 @@ font-size: 11px;
 font-weight: 700;
 letter-spacing: 2.5px;
 }
-
 .hero-label::before {
 content: "";
 width: 35px;
