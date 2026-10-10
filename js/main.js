@@ -1,4 +1,3 @@
-
 /* =========================================================
    CARE GIVING SOLUTIONS
    MAIN JAVASCRIPT
