@@ -5,18 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Specialized Care | Let Us Care</title>
-
     <meta name="description"
         content="Let Us Care provides compassionate specialized caregiver support for dementia, stroke recovery, and palliative care in Ballito and surrounding areas.">
-
     <link rel="stylesheet" href="css/specialized-care.css">
-
 </head>
 
 <body>
-
     <header class="navbar">
         <div class="container nav-container">
 
@@ -24,27 +19,32 @@
                 <span>Care Giving</span> Solutions
             </a>
 
-            <nav class="nav-links">
+            <nav class="nav-links" id="navLinks" aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
-                <a href="specialized-care.html" class="active">Specialized Care</a>
+                <a href="specialized-care.html" class="active" aria-current="page">
+                    Specialized Care
+                </a>
                 <a href="contact.html" class="nav-contact">Contact Us</a>
             </nav>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
         </div>
     </header>
 
-
     <main>
-
         <!-- HERO -->
-
         <section class="specialized-hero">
 
             <div class="hero-orb hero-orb-one"></div>
             <div class="hero-orb hero-orb-two"></div>
-
             <div class="container specialized-hero-container">
 
                 <div class="specialized-hero-content">

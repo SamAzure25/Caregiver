@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>About Us | Let Us Care</title>
 
     <meta name="description"
         content="Learn more about Let Us Care and our compassionate approach to caregiver services in Ballito and surrounding areas.">
 
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
+
+    <!-- Navigation -->
     <header class="navbar">
         <div class="container nav-container">
 
-            <a href="#" class="logo">
+            <a href="index.html" class="logo" aria-label="Care Giving Solutions - Home">
                 <span>Care Giving</span> Solutions
             </a>
-            <nav class="nav-links">
+
+            <nav class="nav-links" id="navLinks" aria-label="Main navigation">
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="about.html" aria-current="page">About</a>
                 <a href="services.html">Services</a>
-                <a href="#specialized-care">Specialized Care</a>
-                <a href="#contact" class="nav-contact">Contact Us</a>
+                <a href="specialized-care.html">Specialized Care</a>
+                <a href="contact.html" class="nav-contact">Contact Us</a>
             </nav>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
         </div>
     </header>
 
 
     <main>
 
+        <!-- About Hero -->
         <section class="page-hero">
 
             <div class="container page-hero-container">
@@ -57,9 +70,11 @@
 
                 </div>
 
-                <div class="page-hero-accent">
+                <div class="page-hero-accent" aria-label="Care with heart">
+
                     <span>Care</span>
                     <strong>With Heart</strong>
+
                 </div>
 
             </div>
@@ -67,23 +82,26 @@
         </section>
 
 
+        <!-- Our Story -->
         <section class="about-story">
 
             <div class="container about-story-container">
 
                 <div class="about-story-image">
 
-                    <div class="about-image-decoration"></div>
+                    <div class="about-image-decoration" aria-hidden="true"></div>
 
-                    <img src="images/img-4.jpeg" alt="Caregiver providing compassionate care">
+                    <img src="images/img-4.jpeg" alt="Caregiver providing compassionate care" loading="lazy">
 
                     <div class="about-image-card">
-                        <span>♥</span>
+
+                        <span aria-hidden="true">♥</span>
 
                         <div>
                             <strong>Care with dignity</strong>
                             <small>Every person matters.</small>
                         </div>
+
                     </div>
 
                 </div>
@@ -128,6 +146,7 @@
         </section>
 
 
+        <!-- Our Values -->
         <section class="care-approach">
 
             <div class="container">
@@ -156,13 +175,9 @@
 
                     <article class="value-card">
 
-                        <div class="value-number">
-                            01
-                        </div>
+                        <div class="value-number">01</div>
 
-                        <h3>
-                            Compassion
-                        </h3>
+                        <h3>Compassion</h3>
 
                         <p>
                             We approach every individual with kindness,
@@ -175,13 +190,9 @@
 
                     <article class="value-card">
 
-                        <div class="value-number">
-                            02
-                        </div>
+                        <div class="value-number">02</div>
 
-                        <h3>
-                            Dignity
-                        </h3>
+                        <h3>Dignity</h3>
 
                         <p>
                             We respect every person's individuality,
@@ -194,13 +205,9 @@
 
                     <article class="value-card">
 
-                        <div class="value-number">
-                            03
-                        </div>
+                        <div class="value-number">03</div>
 
-                        <h3>
-                            Personalised Care
-                        </h3>
+                        <h3>Personalised Care</h3>
 
                         <p>
                             We understand that every person is different,
@@ -213,13 +220,9 @@
 
                     <article class="value-card">
 
-                        <div class="value-number">
-                            04
-                        </div>
+                        <div class="value-number">04</div>
 
-                        <h3>
-                            Reliability
-                        </h3>
+                        <h3>Reliability</h3>
 
                         <p>
                             Families need to know that their loved ones
@@ -235,6 +238,7 @@
         </section>
 
 
+        <!-- Why Choose Us -->
         <section class="why-us">
 
             <div class="container why-us-container">
@@ -265,12 +269,10 @@
 
                     <div class="benefit-item">
 
-                        <span class="benefit-check">✓</span>
+                        <span class="benefit-check" aria-hidden="true">✓</span>
 
                         <div>
-                            <h3>
-                                Compassionate Support
-                            </h3>
+                            <h3>Compassionate Support</h3>
 
                             <p>
                                 Care delivered with patience, kindness,
@@ -283,12 +285,10 @@
 
                     <div class="benefit-item">
 
-                        <span class="benefit-check">✓</span>
+                        <span class="benefit-check" aria-hidden="true">✓</span>
 
                         <div>
-                            <h3>
-                                Individual Attention
-                            </h3>
+                            <h3>Individual Attention</h3>
 
                             <p>
                                 Support tailored to the needs and
@@ -301,12 +301,10 @@
 
                     <div class="benefit-item">
 
-                        <span class="benefit-check">✓</span>
+                        <span class="benefit-check" aria-hidden="true">✓</span>
 
                         <div>
-                            <h3>
-                                Family Peace of Mind
-                            </h3>
+                            <h3>Family Peace of Mind</h3>
 
                             <p>
                                 Helping families feel confident that
@@ -319,12 +317,10 @@
 
                     <div class="benefit-item">
 
-                        <span class="benefit-check">✓</span>
+                        <span class="benefit-check" aria-hidden="true">✓</span>
 
                         <div>
-                            <h3>
-                                Respect & Dignity
-                            </h3>
+                            <h3>Respect &amp; Dignity</h3>
 
                             <p>
                                 Every individual deserves to be treated
@@ -341,6 +337,7 @@
         </section>
 
 
+        <!-- Specialized Care -->
         <section class="about-specialized">
 
             <div class="container about-specialized-container">
@@ -357,6 +354,7 @@
                     </h2>
 
                 </div>
+
 
                 <div>
 
@@ -377,6 +375,7 @@
         </section>
 
 
+        <!-- Final Call to Action -->
         <section class="about-cta">
 
             <div class="container about-cta-container">
@@ -399,8 +398,10 @@
 
                 </div>
 
-                <a href="https://wa.me/277604362091" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/27734434950" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+
                     Talk To Us On WhatsApp
+
                 </a>
 
             </div>
@@ -410,6 +411,7 @@
     </main>
 
 
+    <!-- Footer -->
     <footer class="footer">
 
         <div class="container footer-container">
@@ -429,6 +431,7 @@
         </div>
 
     </footer>
+
 
     <script src="js/main.js"></script>
 
